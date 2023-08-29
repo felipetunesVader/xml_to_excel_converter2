@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="file"],
+input[type="submit"],
+input[type="radio"],
+label {
+    margin-top: 15px;
+}
+
+input[type="submit"] {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+label {
+    display: block;
+}

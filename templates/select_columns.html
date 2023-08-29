@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select Columns</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Select the tags you want as columns:</h1>
+    <form action="/convert/{{ file_name }}" method="post">
+        {% for column in columns %}
+            <input type="checkbox" id="{{ column }}" name="columns" value="{{ column }}">
+            <label for="{{ column }}">{{ column }}</label><br>
+        {% endfor %}
+        <input type="submit" value="Convert">
+    </form>
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>

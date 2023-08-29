@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+    <employee id="1">
+        <name>John Doe</name>
+        <position>Manager</position>
+        <department>HR</department>
+        <email>john.doe@example.com</email>
+        <phone>123-456-7890</phone>
+        <address>
+            <street>123 Main St</street>
+            <city>Anytown</city>
+            <state>CA</state>
+            <zip>12345</zip>
+        </address>
+    </employee>
+    <employee id="2">
+        <name>Jane Smith</name>
+        <position>Developer</position>
+        <department>IT</department>
+        <email>jane.smith@example.com</email>
+        <phone>987-654-3210</phone>
+        <address>
+            <street>456 Elm St</street>
+            <city>Somecity</city>
+            <state>NY</state>
+            <zip>67890</zip>
+        </address>
+    </employee>
+</employees>
